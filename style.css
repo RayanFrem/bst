@@ -1,0 +1,9 @@
+#controls {
+    margin-bottom: 20px;
+}
+
+#treeVisual {
+    white-space: pre;
+    font-family: monospace;
+    margin-top: 20px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Search Tree Visualizer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="controls">
+        <input type="number" id="nodeValue" placeholder="Enter Node Value">
+        <button onclick="addNode()">Add Node</button>
+        <button onclick="deleteNode()">Delete Node</button>
+        <button onclick="checkBalance()">Check Balance</button>
+        <button onclick="rebalanceTree()">Rebalance Tree</button>
+        <button onclick="traverseTree('levelOrder')">Level Order Traversal</button>
+        <button onclick="traverseTree('inOrder')">In-Order Traversal</button>
+        <button onclick="traverseTree('preOrder')">Pre-Order Traversal</button>
+        <button onclick="traverseTree('postOrder')">Post-Order Traversal</button>
+
+
+    </div>
+    <div id="treeVisual"></div>
+
+    <script src="./tree.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
